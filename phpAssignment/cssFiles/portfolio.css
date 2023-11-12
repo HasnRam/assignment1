@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    max-height: 100vh;
+    background-color: #1F252E;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+   
+}
+
+header {
+    padding: 1.7rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 40px;
+}
+
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.logo p {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.97rem;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    padding: 1rem;
+    padding: 0.4rem 1rem;
+}
+
+nav a.active,
+nav a:hover {
+    color: #00E8F8;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+#click {
+    display: none;
+}
+
+.menu i {
+    color: #00E8F8;
+}
+
+.menu {
+    display: none;
+}
+
+section {
+    margin: 2rem 8.5rem;
+}
+
+.about {
+    margin: 1rem 8.5rem;
+    margin-bottom: 0;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space between;
+    align-items: center;
+    margin: 4rem auto;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.main h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.main p {
+    margin-top: 1rem;
+    font-size: 0.98rem;
+    color: #fff;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin-top: 1.7rem;
+}
+
+.social a {
+    color: #00E8F8;
+    font-size: 1rem;
+    border: 1.6px solid #00E8F8;
+    border-radius: 50%;
+    padding: 0.35rem;
+    text-align: center;
+    width: 26px;
+}
+
+.social a:hover {
+    color: #1F252E;
+    background-color: #00E8F8;
+    box-shadow: 0 0 20px #00E8F8;
+    transition: all 0.3s ease-in-out;
+}
+
+.main h1 span:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+.main h1 span:nth-child(2) {
+    color: #00E8F8;
+}
+
+.detail {
+    width: 70%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    clear: none;
+}
+
+#mea {
+    width: 20%;
+    background-repeat: no-repeat;
+    background-position: 0 -75px;
+    -webkit-box-shadow: 0 10px 10px -10px #000000;
+    -moz-box-shadow: 0 10px 10px -10px #000000;
+    box-shadow: 0px 16px 4px -10px #00E8F8;
+    background-size: cover;
+}
+
+.skills {
+    margin: 2rem 8.5rem;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.7rem;
+}
+
+.skill-item {
+    background-color: #00E8F8;
+    color: #1F252E;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.skill-item:hover {
+    background-color: grey;
+    color: cyan;
+    /* Add any other styles you want on hover here */
+}
+.images {
+    background-image: url(/img/graph5.png);
+    background-repeat: no-repeat;
+    background-position: 0 -75px;
+    -webkit-box-shadow: 0 10px 10px -10px #000000;
+    -moz-box-shadow: 0 10px 10px -10px #000000;
+    box-shadow: 0px 16px 4px -10px #00E8F8;
+    width: 25%;
+    background-size: cover;
+    float: right;
+    
+}

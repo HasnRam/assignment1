@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="cssFiles/styleLogin.css"> 
+        
+        <script>
+            // alert("my first javascript!"); 
+         </script>
+        <title>
+            Login
+        </title>
+    </head>
+    <body>
+        <div class="row header " >
+            
+        </div>
+        
+        
+     <div class="login-container">
+        <div class="title">
+            <span>Login</h1>
+        </div>
+        <div class="paragraph">
+            <form action="BE/login.php" method="POST" id="login-form">
+                <label for="un" class="labels">User Name</label>
+                
+                <input type="text" name="username" id="un">
+                <br>
+                <label for="pass" class="labels">Password</label>
+                
+                <input type="password" name="password" id="pass">
+                <br>
+                <br>
+                <div class="but">
+                <input type="button" value="Login" class="mButton" onclick="login()">
+                <input type="button" value="Cancel" class="mButton" onclick="ClearForm()">
+                </div>
+            </form>
+           <div class="aLogin"><a href="htmlFiles/signup.html">Sign Up...</a></div> 
+        </div>
+     </div>
+    
+<script>
+    function login(){
+        var un=document.getElementById("un").value;
+        var pass=document.getElementById("pass").value;
+        if ((un=="")||(pass=="")){
+            alert("You must fill in the username and the password!");
+        }else{
+            document.getElementById("login-form").submit();
+        }
+
+    }
+    function ClearForm(){
+        document.getElementById("un").value="";
+        document.getElementById("pass").value="";
+    }
+</script>
+</body>
+</html>

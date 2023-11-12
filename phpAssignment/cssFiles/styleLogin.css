@@ -1,0 +1,128 @@
+/* Common styles for both Login and Sign Up */
+body {
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.row.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    height: 40px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Shared form element styles */
+.txtfield {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    color: #000;
+    border-radius: 8px;
+}
+
+.mButton {
+    width: 100px;
+    padding: 8px;
+    margin: 5px;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #007bff; /* Button color, modify as needed */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.mSelect {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    color: #000;
+    border-radius: 8px;
+}
+
+/* Additional or modified styles specific to the Sign Up form */
+/* Ensure consistent styling with Login page */
+.signup-container {
+    margin: 50px auto;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.signup-container .txtfield {
+    color: #fff;
+    margin-top: 20px;
+    display: block;
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #000;
+    border-radius: 8px;
+}
+.signup-container input[type="radio"] + label {
+    margin-right: 10px; /* Add space between radio buttons */
+}
+
+/* Additional styles for the Login form */
+.login-container {
+    margin: 50px auto;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.login-container .labels {
+    color: #fff;
+    margin-top: 20px;
+    display: block;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"]{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    color: #000;
+    border-radius: 8px;
+}
+.but
+{
+    text-align: center;
+}
+
+
+
+.aLogin{
+    text-align: center;
+
+}
+.aLogin a {
+    color: #fff;
+}
+.aLogin a:hover
+{
+    color:blueviolet
+}
